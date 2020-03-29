@@ -1,0 +1,14 @@
+{
+    "name": "nayeem12345/wedevs",
+    "description": "this a tutorial from wedevs",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "WeDevs\\Academy\\": "includes/"
+        },
+        "files":["includes/functions.php"]
+    }
+}
