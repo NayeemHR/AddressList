@@ -26,6 +26,6 @@ namespace WeDevs\Academy\Frontend;
       */
 
      public function render_shortcode( $atts, $content =''){
-         return 'hello from shortcode';
+         return '<div class="shortcode-wedevs">hello from shortcode</div>';
      }
  }
